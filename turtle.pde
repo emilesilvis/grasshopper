@@ -17,10 +17,6 @@ class Turtle {
     colour = #000000;
   }  
 
-  void hello() {
-    println("Hello!");
-  }
-
   void forward(float distance) {
     float newX = x + cos(radians(angle)) * distance;
     float newY = y + sin(radians(angle)) * distance;
